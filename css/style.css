@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+	font-family: 'Special Elite', cursive;
+
+/*  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;*/
+
+  background: url(../images/timetodance.png) no-repeat center center fixed;
+  background-size: cover;
+
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+
+  font-size: 36px;
+  line-height: 36px;
+}
+
+h2 {
+
+  font-size: 24px;
+  line-height: 24px;
+}
+
+h3 {
+
+  font-size: 12px;
+  line-height: 12px;
+}
+
+h1, h2, h3 {
+
+  margin: 0;
+  padding: 6px 0;
+}
+
+header {
+
+  padding: 12px;
+}
+
+.links {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  padding: 12px;
+}
+
+.links ol {
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links li {
+
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 6px 0;
+
+  text-align: right;
+}
